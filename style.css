@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #59351A;
+    color: white;
+}
+
+.navbar {
+    border-bottom: 2px solid black;
+    background-color: #59351A;
+    
+}
+.navbar-nav {
+font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  margin: 10px 40px;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-item{
+display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  padding: 12px 15px;
+  position: relative;
+}
+.navbar-nav .nav-item .nav-link,.navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-nav .nav-item:before,
+.navbar-nav .nav-item:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  height: 2px;
+  width: 35%;
+  background-color: #EB6600;
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+.navbar-nav .nav-item:before {
+    top: 0;
+    left: 0;
+}
+.navbar-nav .nav-item:after {
+  bottom: 0;
+  right: 0;
+}
+.navbar-nav .nav-item:hover:before,
+.navbar-nav .nav-item.hover:before,
+.navbar-nav .nav-item:hover:after,
+.navbar-nav .nav-item.hover:after {
+  opacity: 1;
+}
+.navbar-nav .nav-item:hover:before,
+.navbar-nav .nav-item.hover:before {
+  left: 60%;
+}
+.navbar-nav .nav-item:hover:after,
+.navbar-nav .nav-item.hover:after {
+  right: 60%;
+}
+
+
+
+/* .navbar-nav .nav-item .nav-link{
+    color: white;
+    border-left: 2px solid transparent;
+    transition: .2s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #EB6600;
+    border-left: 2px solid black;
+    transition: .2s;
+} */
+.home, #about, #contact {
+     background-color: #0C3E45;
+}
+.imgProfileAcc {
+    margin-top: 45px;
+    width: 150px;
+    border-radius: 25px;
+    border: 2px solid #59351A;
+}
+.titreCompetence {
+   margin: 120px 0 20px 0;
+}
+/* Contact */
+.titreContact {
+    padding: 40px 0 50px 0;
+    /* fusion */
+    margin-top: 100px;
+}
+.btn {
+    background-color: #EB6600;
+    border: 2px solid black;
+    color: black;
+}
+.btn:hover {
+    background-color: black;
+    border: 2px solid #EB6600;
+    color: #EB6600;
+}
+span, p span {
+    color:#EB6600;
+}
+.card-body {
+    background-color: #0C3E45;
+}
+.card {
+    border: 2px solid black;
+}
+#accueil, #portfolio, #about, #contact{
+    border-bottom: 2px solid black;
+}
+#contact {
+    border-top: 2px solid black;
+}
